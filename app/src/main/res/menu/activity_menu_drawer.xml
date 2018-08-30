@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"></item>
+
+        <item
+            android:id="@+id/calender"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Calender"></item>
+
+        <item
+            android:id="@+id/tasks"
+            android:icon="@drawable/ic_schedule_black_24dp"
+            android:title="Tasks"></item>
+
+        <item
+            android:id="@+id/courses"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Courses"/>
+
+        <item
+            android:id="@+id/add_home_work"
+            android:icon="@drawable/ic_edit_blackk_24dp"
+            android:title="Add Homework" />
+
+
+        <item
+            android:id="@+id/grades"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="Grades"></item>
+
+        <item
+            android:id="@+id/notes"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Notes" />
+
+        <item
+            android:id="@+id/exams"
+            android:icon="@drawable/ic_school_black_24dptt"
+            android:title="Exams" />
+
+        <item
+            android:id="@+id/logout_nav"
+            android:icon="@drawable/ic_logout1"
+            android:title="Logout"></item>
+    </group>
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "466228314914",
+    "firebase_url": "https://aniekemeproject-7e7a7.firebaseio.com",
+    "project_id": "aniekemeproject-7e7a7",
+    "storage_bucket": "aniekemeproject-7e7a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466228314914:android:bcce50ab961b7f45",
+        "android_client_info": {
+          "package_name": "com.lawrene.falcon.aniekeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466228314914-mhcmneu8kuok58lelblmgmcjc8qql95l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lawrene.falcon.aniekeme",
+            "certificate_hash": "8d2dadc1b22907eb23da57958ba96a92284b362b"
+          }
+        },
+        {
+          "client_id": "466228314914-gb5nvvhis1kp359j5vgkbh4sj7pudppt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGJxrqOlVm4adZzvbOeV94F8I_nWCsjOA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466228314914-gb5nvvhis1kp359j5vgkbh4sj7pudppt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

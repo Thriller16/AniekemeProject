@@ -1,0 +1,69 @@
+<LinearLayout
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lawrene.falcon.aniekeme.HomeFragment">
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AnalogClock
+            android:layout_marginTop="10dp"
+            android:id="@+id/clock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false" />
+    </FrameLayout>
+
+
+    <TextView
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thursday"
+        android:textSize="20sp"
+
+        />
+    <TextView
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME FRAGMENT"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yet to complete"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/empty"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have no undone homeworks"
+        android:gravity="center_horizontal"/>
+
+
+    <ListView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/undoneTaskListView">
+
+    </ListView>
+
+</LinearLayout>

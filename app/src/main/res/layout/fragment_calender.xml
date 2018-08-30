@@ -1,0 +1,29 @@
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lawrene.falcon.aniekeme.CalenderFragment">
+
+    <CalendarView
+        android:id="@+id/main_calender"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </CalendarView>
+
+    <TextView
+        android:id="@+id/emptyy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:text="You have no classes for today!!"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/courses_on_time_table">
+    </ListView>
+</LinearLayout>

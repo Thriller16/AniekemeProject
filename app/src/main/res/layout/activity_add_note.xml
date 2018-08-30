@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".AddNoteActivity">
+
+    <include layout="@layout/app_bar_layout" android:id="@+id/add_bar"/>
+
+    <RelativeLayout
+        android:id="@+id/home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:text="@string/on_empty_event"
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            android:hint="Type Note"
+            android:gravity="left|top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:id="@+id/edit_text"
+            android:maxLines="10"
+            android:background="@null"
+            android:minLines="6"
+            android:scrollbars="vertical"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:background="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/edit_fab"
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="normal"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

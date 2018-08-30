@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lawrene.falcon.aniekeme.CreateTask">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextColor="#fff"
+            android:background="@color/colorPrimary"
+            android:id="@+id/create_bar">
+
+        </android.support.v7.widget.Toolbar>
+
+        <EditText
+            android:layout_margin="16dp"
+            android:hint="Enter Task Title"
+            android:id="@+id/task_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="16dp"
+            android:hint="Enter Descripton"
+            android:id="@+id/task_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:textSize="18sp"
+                android:layout_margin="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Importance"/>
+
+            <Spinner
+                android:layout_marginTop="15dp"
+                android:id="@+id/type_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+        </LinearLayout>
+
+
+        <CheckBox
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repeat"
+            android:textSize="18sp"/>
+
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_margin="30dp"
+                android:layout_alignParentLeft="true"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:text="SEt time"
+                android:id="@+id/setTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_margin="30dp"
+
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:text="set date"
+                android:id="@+id/setDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <!--<TextView-->
+            <!--android:id="@+id/time_text"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_margin="16dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:paddingBottom="12dp"-->
+            <!--android:paddingLeft="50dp"-->
+            <!--android:paddingRight="50dp"-->
+            <!--android:paddingTop="12dp"-->
+            <!--android:text="9:00PM"-->
+            <!--android:textColor="#fff"-->
+            <!--android:textSize="50sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/date_text"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_margin="16dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Wed. 15th May"-->
+            <!--android:textSize="40sp"/>-->
+
+            <!--<TimePicker-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="16dp"-->
+                <!--android:headerBackground="@color/colorPrimary"-->
+                <!--android:numbersSelectorColor="@color/colorPrimaryDark">-->
+
+            <!--</TimePicker>-->
+
+            <!--<DatePicker-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="16dp"-->
+                <!--android:headerBackground="@color/colorPrimary"></DatePicker>-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+</ScrollView>
